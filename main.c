@@ -23,6 +23,7 @@ for(i=0;i<CANTIDAD;i++){
 
 // aca ya esta cargado ekl vector conlos numeros
 int menor=numeros[0];
+int mayor=numeros[0];
 for(i=0;i<CANTIDAD;i++)
 {
     printf("%d %f\n",i,numeros[i]);
@@ -35,7 +36,10 @@ for(i=0;i<CANTIDAD;i++)
 printf("menor: %d",menor);
 
 
-
+ if(numeros[i]>mayor){
+    mayor= numeros[i];
+ }
+ printf("mayor: %f",mayor);
 
 
 }
