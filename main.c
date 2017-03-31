@@ -39,9 +39,10 @@ printf("menor: %d",menor);
  if(numeros[i]>mayor){
     mayor= numeros[i];
  }
- printf("mayor: %f",mayor);
+ printf("mayor: %d",mayor);
 
-
+float promedio=(mayor+menor)/2;
+printf("promedio: %f",promedio);
 }
 
 
